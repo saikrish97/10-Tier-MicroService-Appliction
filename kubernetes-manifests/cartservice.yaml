@@ -41,7 +41,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: cartservice
+        image: thammalavenugopal/cartservice:latest
         ports:
         - containerPort: 7070
         env:
