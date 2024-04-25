@@ -54,7 +54,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: thammalavenugopal/loadgenerator:latest
+        image: busybox:latest
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
@@ -67,7 +67,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: loadgenerator
+        image: thammalavenugopal/loadgenerator:latest
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
